@@ -1,5 +1,2 @@
-import picamera
-
-camera = picamera.PiCamera()
-
-camera.capture('image.jpg')
+import os;
+os.system("raspistill -o -n picture.jpg");
