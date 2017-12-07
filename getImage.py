@@ -1,2 +1,2 @@
 import os;
-os.system("raspistill -o -n picture.jpg");
+os.system("raspistill -o picture.jpg -n");
