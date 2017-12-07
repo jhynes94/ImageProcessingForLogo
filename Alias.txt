@@ -1,0 +1,1 @@
+alias shot='SHOTTIME=$(date +%Y-%m-%d_%H%M) && raspistill -o shot-$SHOTTIME.jpg --nopreview --exposure sports --timeout 1
